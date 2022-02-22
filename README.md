@@ -7,10 +7,10 @@ You can use the project on its deployed version here:
 ## Functionnalities
 
 In the project, because it's only a frontend version with no API, you can only add some articles to your favorite items.
-Of course, this project is still in developpment.
+Of course, this project is still in developpment to add new features.
 
 ### How it's made
 
-I use mostly React.js to make this project. I tried to make it all without packages.
+I used mostly React.js to make this project. I tried to make it all without packages.
 
 
