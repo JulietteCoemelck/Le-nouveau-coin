@@ -2,7 +2,7 @@
 
 This project was made to make Le Bon Coin more modern. I used this UI/UX design by Nicolas Bouffier: https://www.behance.net/gallery/104327815/UI-UX-Leboncoin?tracking_source=search_projects_recommended%7Cleboncoin
 
-You can use the project on its deployed version here: 
+You can use the project on its deployed version here: https://juco-le-nouveau-coin.netlify.app/
 
 ## Functionnalities
 
