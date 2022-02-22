@@ -1,0 +1,30 @@
+#container {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #848484;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.row {
+    width: min-content;
+    background-color: white;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.switchItem {
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+    #container {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,49 @@
+form {
+    margin-top: 20px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 2em;
+    color: #848484;
+    width: max-content;
+    overflow: hidden;
+
+}
+
+input {
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.arrowDown {
+    cursor: pointer;
+}
+
+.arrowDown:hover {
+    color:#f56C2a;
+}
+
+.categories {
+    background-color: white; 
+    color: #848484;
+    width: 150px;
+    border-radius: 0 0 16px 16px;
+}
+
+.categoryItem {
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.categoryItem:hover {
+    background-color: #f56C2a;
+    color: white;
+}
+
+.categoryItem:last-child:hover {
+    border-radius: 0 0 16px 16px;
+}

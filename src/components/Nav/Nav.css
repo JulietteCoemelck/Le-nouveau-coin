@@ -1,0 +1,79 @@
+#bigContainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6189d3ef;
+    color: white;
+    font-size: 20px;
+    border-radius: 0 0 16px 16px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 33vw;
+    height: 53px;
+    margin: 0;
+    justify-content: flex-end;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.logo{
+    cursor: pointer;
+    width: 150px;
+    color: white;
+}
+
+.navitem{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    cursor: pointer;
+}
+
+.popup {
+    height:min-content;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 53px;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.cardFavorites {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: solid #f76800 1px;
+}
+
+.cardFavorites img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 900px) {
+    #bigContainer {
+        justify-content: space-around;
+    }
+    .container {
+        justify-content: space-around;
+    }
+    .navitem {
+        padding: 0 10px 0 10px;
+    }
+}
+
+.navitem:hover{
+    cursor: pointer;
+    border-bottom: #f76800 solid 3px;
+    margin-bottom: -3px;
+}
